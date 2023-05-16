@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+:root{
+    --yellow-color: #fbe949;
+    --blue-color: #0a88d3;
+    --gray-color: #596066;
+}
+body{
+    font-family: 'Lobster', cursive;
+    margin: 0rem;
+    background-color: var(--yellow-color);
+}
+.container{
+    padding: 0rem 1rem;
+}
+.container-center{
+    max-width: 600px;
+    margin: auto;
+    padding: 1rem;
+}
+.navigation{
+    background-color: var(--gray-color);
+    color: white;
+    padding: 2rem;
+
+}
+.navigation .name{
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: right;
+    color: var(--blue-color);
+}
+.navigation .neon {
+    color: var(--blue-color);
+    text-shadow: 0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
+             0 0 20px #A5F1FF, 0 0 30px #A5F1FF,
+             0 0 40px #A5F1FF;
+}
+textarea {
+    height: 10vh;
+    width: 90%;
+    margin: 1rem;
+    padding: 1rem 1rem;
+    border: solid;
+    border-radius: 1rem;
+    border-color: var(--gray-color);
+    font-size: 1.3rem;
+    font-family: 'Lobster', cursive;
+    background-color: var(--yellow-color)
+}
+#btn-translate{
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    background-color: var(--blue-color);
+    text-align: center;
+    display: block;
+    margin: auto;
+    border: 2px solid;
+}
+#btn-translate:hover{
+    background-color: var(--gray-color);
+}
+h1{
+    text-align: center;
+    padding-top: 1rem;
+    color: black
+}
+#output {
+    height: 10vh;
+    width: 90%;
+    margin: 1rem;
+    padding: 1rem 1rem;
+    border: solid;
+    border-radius: 1rem;
+    border-color: var(--gray-color);
+    font-size: 1.3rem;
+}
+section{
+    padding: 1rem;
+}
+.footer{
+    background-color: var(--blue-color);
+    text-align: center;
+    padding: 0.4rem 1rem
+    
+}
+.footer .footer-header{
+    font-size: large;
+}
