@@ -1,0 +1,69 @@
+/* Navigation */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+}
+
+#logo img{
+    height: 45px;
+}
+
+/* Home section */
+#home{
+    height: 275px;
+    padding: 3px 48px;
+}
+
+#home::before{
+    height: 430px;
+}
+
+#home p{
+    font-size: 13px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+
+/* Assurance section */
+#assurance{
+    flex-direction: column;
+    margin: 0px;
+    margin-left: 0px;
+}
+
+#assurance .box{
+
+}
+
+#assurance .box img{
+    height: 55px;
+}
+
+/* Partners section */
+#partners{
+    flex-wrap: wrap;
+}
+
+#partners img{
+    width: 66px;
+    padding: 6px;
+    height: auto;
+}
+
+/* Contact */
+#contact-box form{
+    width: 70%;
+}
+
+/* Footer */
+
+/* Utility classes */
+.h-primary{
+    font-size: 26px;
+
+}
